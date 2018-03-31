@@ -6,12 +6,13 @@ EXPORT
 
 var HExport =
 {
+    // TODO
+    // Fix function parameters
     /**
-     * @summary Short description. (use period)
-     * @params type $var Optional. Description.
-     * @returns type Description.
+     * @summary Saves active document as Ai.
+     * @param {string} path
+     * @param {string} filename
      */
-
     SaveAsAI: function()
     {
         var saveOptions = new IllustratorSaveOptions();
@@ -22,15 +23,4 @@ var HExport =
 
         
     }
-
-    // function SaveAsAI()
-    // {
-
-    //     var fileOutput = new File(atlasSettings.dataFolder + "/" + mapObject.data[parseInt(mapList.selection)] + "-Export.png");
-    //     var imageCaptureOptions = new ImageCaptureOptions();
-    //     imageCaptureOptions.resolution = 300;
-    //     imageCaptureOptions.transparency = true;
-
-    //     app.activeDocument.imageCapture(fileOutput, app.activeDocument.visibleBounds, imageCaptureOptions);
-    // }
 };

@@ -9,7 +9,7 @@ var HLogger =
     log : '',
 
     /**
-     * @summary Appends message to global 'log'.
+     * @summary Appends message to 'log' variable.
      * @param {string} message
      * @param {string} level Notice, Warning or Error. (Defaul: Notice).
      */
@@ -30,6 +30,10 @@ var HLogger =
       this.log = '';
     },
 
+    /**
+     * @summary Object to 'log' string.
+     * @returns {string}
+     */
     toString: function()
     {
     	return this.log;

@@ -7,10 +7,13 @@ LAYERS
 var HLayers =
 {
 	/**
-	 * @summary Short description. (use period)
-	 * @params type $var Optional. Description.
-	 * @returns type Description.
-	 */
+     * @summary Searches layers by name.
+     * @param {Array.<Layer>} layersArray Array of Layer.
+     * @param {Array.<string>} namesArray Array of strings.
+     * @param {number} maxDepthLevel How many sub-layers.
+     * @param {boolean} returnOnlyFirst One or all occurances.
+     * @returns {Array.<Layer>} Array of Layer objects.
+     */
 	GetLayersByName: function(layersArray, namesArray, maxDepthLevel, returnOnlyFirst)
 	{
 		try
@@ -59,15 +62,17 @@ var HLayers =
 	},
 
 	/**
-	 * @summary Short description. (use period)
-	 * @params type $var Optional. Description.
-	 * @returns type Description.
-	 */
-	RemoveLayersByName: function(layersArray, namesArray, maxDepthLevel, returnOnlyFirst)
+     * @summary Deletes layers by name.
+     * @param {Array.<Layer>} layersArray Array of Layer.
+     * @param {Array.<string>} namesArray Array of strings.
+     * @param {number} maxDepthLevel How many sub-layers.
+     * @param {boolean} removeOnlyFirst One or all occurances.
+     */
+	RemoveLayersByName: function(layersArray, namesArray, maxDepthLevel, removeOnlyFirst)
 	{
 		try
 		{
-			var layersToRemove = this.GetLayersByName(layersArray, namesArray, maxDepthLevel, returnOnlyFirst);
+			var layersToRemove = this.GetLayersByName(layersArray, namesArray, maxDepthLevel, removeOnlyFirst);
 			
 			HUBRIS.Logger.ToConsole("");
 			HUBRIS.Logger.ToConsole("Removed " + layersToRemove.length + " out of " + namesArray.length);

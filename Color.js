@@ -6,6 +6,11 @@ COLOR
 
 var HColor =
 {
+    /**
+     * @summary Converts generic object (with red, green, blue properties) to Adobe's RGBColor object.
+     * @param {object} colorObject
+     * @returns {RGBColor} RGBColor
+     */
     GetRGBColorFromObject: function(colorObject)
     {
       var newRGBColor = new RGBColor();
@@ -16,6 +21,13 @@ var HColor =
       return newRGBColor;
     },
 
+    // TODO
+    // Better naming
+    /**
+     * @summary Get all colors from a specific SwatchGroup / Palette
+     * @param {string} paletteName
+     * @returns {Array.<Color>} Array of Color
+     */
     GetSwatchArray: function(paletteName)
     {
         var swatchAray = [];

@@ -6,6 +6,10 @@ ADOBE
 
 var HDocuments =
 {
+    /**
+     * @summary Get Active Document
+     * @returns {Document}
+     */
     GetActiveDocument: function()
     {
         if (app.documents.length > 0) return app.activeDocument;
@@ -17,10 +21,12 @@ var HDocuments =
         }
     },
 
+    // TODO 
+    // Better onResult console update.
     /**
-     * @summary Short description. (use period)
-     * @params type $var Optional. Description.
-     * @returns type Description.
+     * @summary Send Bridge Talk Message.
+     * @param {string} bTMessage Message.
+     * @param {string} target Target application.
      */
     BridgeTalkMessage: function(bTMessage, target)
     {
