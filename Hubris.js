@@ -5,6 +5,7 @@ HUBRIS
 */
 
 var HUBRIS = {
+    BridgeTalk : HBridgeTalk,
     Color : HColor,
     Data : HData,
     Documents : HDocuments,
