@@ -6,26 +6,30 @@ BRIDGETALK
 
 var HBridgeTalk =
 {
-    // TODO 
-    // Better onResult console update.
+    bridgeTalk: null,
+
+    /**
+     * @summary Setups BridgeTalk Message and define a global function 'BridgeTalkOnResult()'.
+     */
+    Setup: function()
+    {
+        bridgeTalk = new BridgeTalk;
+        bridgeTalk.onResult = function(resObj)
+        {
+            BridgeTalkOnResult();
+        }
+    },
+
     /**
      * @summary Send Bridge Talk Message.
      * @param {string} bTMessage Message.
      * @param {string} target Target application.
      */
-    BridgeTalkMessage: function(bTMessage, target)
+    Message: function(bTMessage, target)
     {
-        if (bridgeTalk == null) bridgeTalk = new BridgeTalk;
-
         bridgeTalk.target = target;
         bridgeTalk.body = bTMessage;
 
-        bridgeTalk.onResult = function(resObj)
-        {
-            md = bridgeTalk.result = eval(resObj.body);
-            consoleDisplay.text = HUBRIS.Logger;
-        }
-        
         bridgeTalk.send();
     }
 };
