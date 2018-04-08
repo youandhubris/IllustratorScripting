@@ -302,3 +302,7 @@ Saves user settings to ~/Library/Application Support/HUBRIS.
 
 -   `filename` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 -   `stringToSave` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+___
+
+Documentation created with [documentationjs](https://github.com/documentationjs/documentation)
