@@ -4,6 +4,9 @@ EXPORT
 ---------------------------------------------
 */
 
+/**
+ * Export class. TODO.
+ */
 var HExport =
 {
     // TODO
