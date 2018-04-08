@@ -7,7 +7,7 @@ MATH
 var HMath =
 {
     /**
-     * @summary Returns the index of the specified occurance.
+     * Returns the index of the specified occurance.
      * @param {string} string
      * @param {string} character
      * @param {number} occurance
@@ -30,7 +30,7 @@ var HMath =
     },
 
     /**
-     * @summary Converts millimeter to point.
+     * Converts millimeter to point.
      * @param {number} mm in millimeters.
      * @returns {number}
      */
@@ -41,7 +41,7 @@ var HMath =
     },
 
     /**
-     * @summary Converts point to millimeter.
+     * Converts point to millimeter.
      * @param {number} point in points.
      * @returns {number}
      */
@@ -52,7 +52,7 @@ var HMath =
     },
 
     /**
-     * @summary Maps value given in/out limits.
+     * Maps value given in/out limits.
      * @param {number} value
      * @param {number} inputMin
      * @param {number} inputMax

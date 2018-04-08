@@ -7,7 +7,7 @@ GUI
 var HGUI =
 {
     /**
-     * @summary Delete previous window session.
+     * Delete previous window session.
      * @param {string} title Window title.
      */
     ClearWindow: function(title)
@@ -16,7 +16,6 @@ var HGUI =
         if (winToDel != null)
         {
             winToDel.close();
-            delete winToDel;
         }
     }
 };

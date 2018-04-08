@@ -7,7 +7,7 @@ LAYERS
 var HLayers =
 {
 	/**
-     * @summary Searches layers by name.
+     * Searches layers by name.
      * @param {Array.<Layer>} layersArray Array of Layer.
      * @param {Array.<string>} namesArray Array of strings.
      * @param {number} maxDepthLevel How many sub-layers.
@@ -62,7 +62,7 @@ var HLayers =
 	},
 
 	/**
-     * @summary Deletes layers by name.
+     * Deletes layers by name.
      * @param {Array.<Layer>} layersArray Array of Layer.
      * @param {Array.<string>} namesArray Array of strings.
      * @param {number} maxDepthLevel How many sub-layers.

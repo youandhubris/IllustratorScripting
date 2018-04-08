@@ -9,7 +9,7 @@ var HExport =
     // TODO
     // Fix function parameters
     /**
-     * @summary Saves active document as Ai.
+     * Saves active document as Ai.
      * @param {string} path
      * @param {string} filename
      */

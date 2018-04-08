@@ -4,12 +4,15 @@ BRIDGETALK
 ---------------------------------------------
 */
 
+/**
+ * BridgeTalk class.
+ */
 var HBridgeTalk =
 {
     bridgeTalk: null,
 
     /**
-     * @summary Setups BridgeTalk Message and define a global function 'BridgeTalkOnResult()'.
+     * Setups BridgeTalk Message and define a global function 'BridgeTalkOnResult()'.
      */
     Setup: function()
     {
@@ -21,7 +24,7 @@ var HBridgeTalk =
     },
 
     /**
-     * @summary Send Bridge Talk Message.
+     * Send Bridge Talk Message.
      * @param {string} bTMessage Message.
      * @param {string} target Target application.
      */

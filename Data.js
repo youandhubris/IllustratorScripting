@@ -7,7 +7,7 @@ DATA
 var HData =
 {
     /**
-     * @summary Prompts message for folder selection.
+     * Prompts message for folder selection.
      * @param {string} promptMessage
      * @returns {string}
      */
@@ -20,7 +20,7 @@ var HData =
     },
 
     /**
-     * @summary Reads file and returns JSON object.
+     * Reads file and returns JSON object.
      * @param {string} pathToData
      * @param {string} filename
      * @returns {JSON}
@@ -33,7 +33,7 @@ var HData =
     },
 
     /**
-     * @summary File to JSON object.
+     * File to JSON object.
      * @param {File} fileObject
      * @returns {JSON}
      */
@@ -50,7 +50,7 @@ var HData =
     // Better method / option
     // Save text based file
     /**
-     * @summary Saves, and overwrites, text file.
+     * Saves, and overwrites, text file.
      * @param {string} path
      * @param {string} filename
      * @param {string} stringToSave

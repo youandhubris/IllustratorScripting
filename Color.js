@@ -7,7 +7,7 @@ COLOR
 var HColor =
 {
     /**
-     * @summary Converts generic object (with red, green, blue properties) to Adobe's RGBColor object.
+     * Converts generic object (with red, green, blue properties) to Adobe's RGBColor object.
      * @param {object} colorObject
      * @returns {RGBColor} RGBColor
      */
@@ -22,7 +22,7 @@ var HColor =
     },
 
     /**
-     * @summary Converts generic object (with cyan, magenta, yellow, key, properties) to Adobe's CMYKColor object.
+     * Converts generic object (with cyan, magenta, yellow, key, properties) to Adobe's CMYKColor object.
      * @param {object} colorObject
      * @returns {CMYKColor} CMYKColor
      */
@@ -39,7 +39,7 @@ var HColor =
     // TODO
     // Better naming
     /**
-     * @summary Get all colors from a specific SwatchGroup / Palette
+     * Get all colors from a specific SwatchGroup / Palette
      * @param {string} paletteName
      * @returns {Array.<Color>} Array of Color
      */

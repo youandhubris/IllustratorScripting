@@ -9,7 +9,7 @@ var HLogger =
     log : '',
 
     /**
-     * @summary Appends message to 'log' variable.
+     * Appends message to 'log' variable.
      * @param {string} message
      * @param {string} level Notice, Warning or Error. (Defaul: Notice).
      */
@@ -23,7 +23,7 @@ var HLogger =
     },
 
     /**
-     * @summary Clears 'log' variable.
+     * Clears 'log' variable.
      */
     LogClear: function()
     {
@@ -31,7 +31,7 @@ var HLogger =
     },
 
     /**
-     * @summary Object to 'log' string.
+     * Object to 'log' string.
      * @returns {string}
      */
     toString: function()

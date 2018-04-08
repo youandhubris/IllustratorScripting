@@ -7,7 +7,7 @@ SETTINGS
 var HSettings =
 {
     /**
-     * @summary Returns user settings from ~/Library/Application Support/HUBRIS.
+     * Returns user settings from ~/Library/Application Support/HUBRIS.
      * @param {string} settingsFile
      * @returns {string} JSON object.
      */
@@ -19,7 +19,7 @@ var HSettings =
     },
 
     /**
-     * @summary Saves user settings to ~/Library/Application Support/HUBRIS.
+     * Saves user settings to ~/Library/Application Support/HUBRIS.
      * @param {string} filename
      * @param {string} stringToSave
      */

@@ -7,7 +7,7 @@ ADOBE
 var HDocuments =
 {
     /**
-     * @summary Get Active Document
+     * Get Active Document
      * @returns {Document}
      */
     GetActiveDocument: function()
