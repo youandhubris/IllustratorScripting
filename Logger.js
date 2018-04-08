@@ -4,6 +4,9 @@ LOG
 ---------------------------------------------
 */
 
+/**
+ * Logger class, to use as in GUI console.
+ */
 var HLogger = 
 {
     log : '',

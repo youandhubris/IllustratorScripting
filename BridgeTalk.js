@@ -5,7 +5,7 @@ BRIDGETALK
 */
 
 /**
- * BridgeTalk class.
+ * Simple helpers to use Adobe's BridgeTalk class.
  */
 var HBridgeTalk =
 {

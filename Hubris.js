@@ -4,6 +4,9 @@ HUBRIS
 ---------------------------------------------
 */
 
+/**
+ * The main class/object, for a 'namespace-like' structure in Javascript.
+ */
 var HUBRIS = {
     BridgeTalk : HBridgeTalk,
     Color : HColor,
